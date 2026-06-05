@@ -1,23 +1,16 @@
-# 🏨 BnB Website Template (React + Vite + Tailwind CSS)
+# React + Vite
 
-Questo progetto è un **template open-source, moderno e pronto all'uso** per siti web di Bed & Breakfast, Case Vacanze o Affittacamere. La struttura è progettata per essere completamente personalizzabile: modificando un singolo file di configurazione o i componenti dedicati, è possibile sostituire testi, colori e immagini per lanciare un sito vetrina in pochi minuti.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Allo stesso tempo, questo progetto rappresenta un'esercitazione pratica mirata all'apprendimento e al consolidamento delle tecnologie frontend più richieste dal mercato del lavoro.
+Currently, two official plugins are available:
 
-## 🎯 Obiettivi del Progetto
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-- **Componenti Riutilizzabili:** Sfruttare la logica di React per creare elementi modulari (es. Card delle camere, sezioni recensioni, navbar) facilmente replicabili.
-- **Design Dinamico & Scalabile:** Utilizzare Tailwind CSS per garantire un layout responsive, moderno e un sistema di utility-first ad alte prestazioni.
-- **Performance Elevate:** Sfruttare la velocità di compilazione di Vite per garantire un caricamento del sito quasi istantaneo.
-- **Sostenibilità del Codice:** Scrivere codice pulito, documentato e pronto per essere mostrato in fase di colloquio tecnico.
+## React Compiler
 
-## 🛠️ Tecnologie Utilizzate
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-- **Framework core:** React
-- **Build Tool:** Vite
-- **Stile & Design:** Tailwind CSS
-- **Icone:** _(da confermare in fase di sviluppo)_
+## Expanding the ESLint configuration
 
----
-
-_Nota: Questo è un progetto mockup sviluppato a scopo didattico e come dimostrazione di competenze portfolio._
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
